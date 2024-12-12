@@ -1,0 +1,86 @@
+body{
+    font-size: 16px;
+    font-family: system-ui;
+    background: -webkit-radial-gradient(top left, #90F6FB,#2C3283);
+  }
+  .form{
+    width:100%;
+  }
+  h2{
+    text-align: center;
+    color:#efbe58
+  }
+  form{
+    width: 300px;
+    padding: 15px 40px 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: white;
+    margin:4% auto;
+  }
+  label{
+    display: block;
+    margin-bottom: 5px;
+  }
+  label i{
+    color:#999;
+    font-size: 80%;
+  
+  }
+  input,select{
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width:100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #a9bae64a;
+  }
+  select:hover{
+    border:1px solid #00ff00 
+  }
+  .form-group{
+    padding-bottom: 10px;
+  }
+  .form-inline{
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius:2px;
+    background-color: #a9bae64a;
+  }
+  .form-inline label,.form-inline input{
+    display: inline-block;
+    width:auto;
+    padding-right: 15px;
+  }
+  .form-inline:hover{
+    border:1px solid #00ff00 
+  }
+  input:hover{border:1px solid #00ff00 ; 
+  }
+  .error{
+    color:red;
+    font-size: 90%;
+  }
+  input[type="text"]{
+    outline:none;
+  }
+  
+    .agreeTerms{
+      padding-top: 10px;
+    }
+    #submitBtn{
+    font-size: 110%;
+    font-weight: 200;
+    width: 300px;;
+    height: 40px;
+    background-color: #efbe58;
+    border-color:#efbe58 ;
+    color: white;
+    margin-top: 10px;
+    cursor:pointer;
+    border-radius:2px;
+    }
+    #submitBtn:hover{
+      background: #bd432e;
+    }

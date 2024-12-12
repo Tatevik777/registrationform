@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registrationform.css">
+  <title>Document</title>
+</head>
+<body>
+  <form name="myForm">
+    <h2>Форма регистрации</h2>
+
+    <div class="form-group">
+      <label for="name">Имя</label>
+      <input type="text" name="name" placeholder="Введите Ваше имя " id="name" required/>
+      <div class="error" id="nameError"></div>
+    </div>
+    
+    <div class="form-group">
+      <label>Email</label>
+      <input type="text" name="email" placeholder="Введите Ваш email " id="email" required>
+      <div class="error" id="emailError"></div>
+    </div>
+    <div class="form-group">
+      <label> Возраст</label>
+      <input type="number" name="age" id="age"placeholder="Возраст" required>
+      <div class="error" id="ageError"></div>
+    </div>
+    <div class="gender-field">
+      <label>Пол</label>
+      <div class="form-inline" id="gender">
+        <label><input type="radio" name="gender" value="Male">Мужской</label>
+        <label><input type="radio" name="gender" value="Female">Женский </label>
+      </div>
+      <div class="error" id="genderError"></div>
+    </div>
+    <div class="form-group">
+      <label> Выберите профессию</label>
+      <select name="profession" placeholder="Ваша профессия" id="profession" required>
+        <option>Врач</option>
+        <option>Программист</option>
+        <option>Учитель </option>
+        <option>Продавец</option>
+        <option>Инженер</option>
+        <option>Другое </option>
+      </select>
+      <div class="error" id="professionError"></div>
+    </div>
+    <div class="form-group">
+      <label>Пароль</label>
+      <input type="text" name="password" placeholder="Введите Ваш пароль" id="password" required>
+      <div class="error" id="passwordError"></div>
+
+    <div class="agreeTerms">
+      <div class="form-inline" id="gender">
+      <input type="checkbox" name="agreeTerms" id="agreeTerms">
+    <label for="agreeTerms">Я согласен с условиями</label>
+    </div>
+       </div>
+    <button type="submit" name="submitBtn" id="submitBtn"  >Отправить</button>
+  </form>
+
+  <script src="registrationform.js"></script>
+</body>
+</html>
